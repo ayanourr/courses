@@ -1,0 +1,33 @@
+/* App.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.courses-container {
+  margin-top: 20px;
+}
+
+
+.course {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.actions {
+  display: flex;
+}
+
+.actions button {
+  margin-left: 5px;
+}
+ 
